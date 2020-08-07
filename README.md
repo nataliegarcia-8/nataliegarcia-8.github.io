@@ -10,7 +10,7 @@ My site showcases my technical skills not only in my projects, but the site itse
 
 ### Website Link
 
-https://github.com/nataliegarcia-8/nataliegarcia-8.github.io
+https://nataliegarcia-8.github.io/
 
 ### Screenshots
 

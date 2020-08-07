@@ -15,3 +15,19 @@ linkPage3.onclick = function () {
 linkPage4.onclick = function () {
     page4.scrollIntoView()
 }
+
+
+// modal zoom
+var modal = document.getElementById("modal");
+var img = document.getElementById("modal-click");
+var modalImg = document.getElementById("modal-img");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}

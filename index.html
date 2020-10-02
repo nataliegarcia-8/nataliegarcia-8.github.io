@@ -2,265 +2,310 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=>, initial-scale=1.0">
-  <title>Natalie Garcia</title>
-  <link rel="stylesheet" href="assets/reset.css">
-  <link rel="shortcut icon" href="assets/img/nglogo.png">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
-    integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/style.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<title>Natalie Garcia</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="images/nglogo.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet">
+
+
 </head>
 
-<body>
-  <!-- container -->
-  <div class="container">
-    <div class="row flex-column flex-nowrap">
-      <!-- Section 1 - Main Page -->
-      <div class="col-12 main page-content" id="page-1">
-        <img id="logo" src="assets/img/logo2.png">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-8 box">
-            Full-Stack Web Developer
-            <nav>
-              <button class="nav-btn" id="linkPage2">Portfolio</button>
-              <button class="nav-btn" id="linkPage3">About</button>
-              <button class="nav-btn" id="linkPage4">Contact</button>
-            </nav>
-          </div>
-          <div class="col-2"></div>
-        </div>
-      </div>
-      <!-- Page 2 - Portfolio -->
-      <div class="col-12 page-content" id="page-2">
-        <div class="section-content">
-          <h1>Portfolio</h1>
-          <hr>
-          <div class="col-12">
-            <!-- <h2>Projects</h2> -->
-            <div class="row project-row">
-              <!-- project block 1 -->
-              <div class="col-md-6 col-sm-12 projects" style="background-color: #dcdcdc;">
-                <h2>Masked Wanderer</h2>
-              </a>
-              <div class="margin">
-              <p class="info">A corona travel app to find travelers the cheapest flight, while staying informed.</p>
-              <a href="https://nataliegarcia-8.github.io/Domestic-Covid19-TravelApp/">https://nataliegarcia-8.github.io/Domestic-Covid19-TravelApp/</a></div>
-              <div class="row">
-                  <div class="col-6">
-                    <i id="modal-click" class="fa fa-camera">
-                      <br>
-                      <h2>Screenshot</h2>
-                    </i>
-                    <div class="modal" id="modal">
-                      <!-- The Close Button -->
-                      <span class="close">&times;</span>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+	<!-- Nav Section -->
+	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
 
-                      <!-- modal image -->
-                      <img id="modal-img" src="assets/img/masked-wanderer.png">
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <a href="https://github.com/nataliegarcia-8/Domestic-Covid19-TravelApp">
-                      <i class="fab fa-github">
-                        <br>
-                        <h2>Github Repo</h2>
-                      </i></a>
-                  </div>
-                </div>
-              </div>
-              <!-- color block 1 -->
-              <div class="col-6 blanks" style="background-color:gray"></div>
-            </div>
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+				aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-            <div class="row project-row">
-              <!-- color block 2 -->
-              <div class="col-6 blanks" style="background-color: #262626;"></div>
-              <!-- project block 2 -->
-              <div class="col-md-6 col-sm-12 projects" style="background-color: #f1e76e;">
-                <h2>Weather Dashboard</h2>
-                <div class="margin">
-                <p class="info">A weather dashboard searchable by city to show daily and 5-Day Forecast.</p>
-                <a href="https://nataliegarcia-8.github.io/weather-dashboard/">https://nataliegarcia-8.github.io/weather-dashboard/</a>
-              </div>
-                <!-- modal -->
-                <div class="row">
-                  <div class="col-6">
-                    <i id="modal-click" class="fa fa-camera">
-                      <br>
-                      <h2>Screenshot</h2>
-                    </i>
-                    <div class="modal" id="modal">
-                      <!-- close button - modal-->
-                      <span class="close">&times;</span>
 
-                      <!-- modal image -->
-                      <img id="modal-img" src="assets/img/weather-dash.png">
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <a class="" href="https://github.com/nataliegarcia-8/weather-dashboard">
-                      <i class="fab fa-github">
-                        <br>
-                        <h2>Github Repo</h2>
-                      </i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row project-row">
-              <!-- project block 3 -->
-              <div class="col-md-6 col-sm-12 projects" style="background-color: darkgray;">
-                <h2>Work Day Scheduler</h2>
-                <div class="margin">
-                <p class="info">An hourly work day scheduler to keep up with appointments and to-dos.</p>
-                <a href="https://nataliegarcia-8.github.io/work-day-scheduler/">https://nataliegarcia-8.github.io/work-day-scheduler/</a>
-              </div>
-                <div class="row">
-                  <div class="col-6">
-                    <i id="modal-click" class="fa fa-camera">
-                      <br>
-                      <h2>Screenshot</h2>
-                    </i>
-                    <div class="modal" id="modal">
-                      <!-- close button -->
-                      <span class="close">&times;</span>
+			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Portfolio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-                      <!-- modal image -->
-                      <img id="modal-img" src="assets/img/work-day-scheduler.png">
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <a class="" href="https://github.com/nataliegarcia-8/work-day-scheduler"><i
-                        class="fab fa-github">
-                        <br>
-                        <h2>Github Repo</h2>
-                      </i></a>
-                  </div>
-                </div>
-                </div>
-                  <!-- color block 3 -->
-                  <div class="col-6 blanks" style="background-color: #3f3f3f;"></div>
-                </div>
-            </div>
-            </div>
-          </div>
-        <!-- END OF Portfolio Section -->
+	<!-- HOME SECTION -->
+	<section class="site-hero" style="background-image: url(images/pexels-john-petalcurin-2115257.jpg);"
+		id="section-home" data-stellar-background-ratio="0.5">
+		<div class="container">
+			<div class="row intro-text align-items-center justify-content-center">
+				<div class="col-md-10 text-center pt-5">
 
-        <!-- ABOUT ME SECTION -->
-        <div class="col-12 page-content" id="page-3">
-          <div class="section-content">
-            <!--row 1 about me-->
-            <h1>About Me</h1>
-            <hr>
-            <!--img and paragraph section-->
-            <div class="row">
-              <div class="col-lg-5">
-                <img id="about-img" src="assets/img/aboutme2.jpeg" alt="headshot of Natalie">
-              </div>
-              <div class="col-lg-7 col-sm-12" id="about">
-                <p>Hi there! I'm Natalie Garcia. I am a full-stack web developer.
-                  I have spent the last four years at the University of Georgia pursuing a degree in Entertainment and
-                  Media
-                  Studies.
-                <p>
-                  I am a recent grad with a Bachelor of Arts, a Film studies minor, and a New Media
-                  Certificate. Film and television will always have my heart, but I enjoy veiwing them more than I do
-                  creating them.
-                  I am currently working to become a Full-Stack Web Developer through the Georgia Tech Coding Bootcamp
-                  Program.
-                </p>
-                <p>
-                  When I first starting coding it just made sense to me and I loved trying to fit the pieces together to
-                  make
-                  a
-                  code work.
-                  I have never felt like I was passionate enough for the careers I was pursing until I began coding.
-                  I would like to pursue a career in Web Development so I can have a career I love, that consistently
-                  challenges</p>
-                <p>When I am not staring at a computer screen, I love to bake, workout, and binge watch TV.
-                  I have a 2 year-old boxer named Henley, and she is the goodest girl in the world!
-                  When it comes to organizing, I am your girl!
-                  I also enjoy refurbishing furniture and plan to build my skills in woodworking as a hobby.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 page-content" id="page-4">
-          <div class="section-content">
-            <h1>Contact</h1>
-            <hr>
-            <div class="row">
-              <div class="col-md-6 col-sm-12">
-                <!-- Links and Resume -->
-                <h2>Email:</h2>
-                <p>gnatalie.booking@gmail.com</p>
-               <br>
-                <h2>Let's Link Up</h2>
-                <div class="row links">
-                  <div class="col-md-6">
-                    <div class="img-container">
-                      <i class="fab fa-github fa-7x"></i>
-                      <div class="img-cover">
-                        <a class="text-link" href="https://github.com/nataliegarcia-8">Github</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="img-container">
-                      <i class="fab fa-linkedin fa-7x"></i>
-                      <div class="img-cover">
-                        <a class="text-link" href="https://www.linkedin.com/in/natalie-garcia-43426b162/">LinkedIn</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <a href="assets/img/myresume.pdf"><img src="assets/img/resume.png"></a>
-                    <a class="text-link" href=""></a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6">
-                <form>
-                  <div class="form-group">
-                    <label for="form-name">Name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane Doe">
-                  </div>
-                  <div class="form-group">
-                    <label for="form-email">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                      placeholder="name@example.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="form-message">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
+					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Natalie Garcia.</strong>
+					</h1>
+					<strong class="d-block text-white text-uppercase letter-spacing">Full-Stack Web Developer</strong>
+					<br>
+					<a href="images/natalie_garcia_resume.pdf" target="_blank" class="btn btn-secondary px-4 py-2 btn-sm">Check out my Resume</a>
+				</div>
+			</div>
+		</div>
+	</section> <!-- section -->
+	<!-- PORTFOLIO SECTION -->
+	<section class="site-section" id="section-portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="section-heading text-center col-md-12">
+					<h2>My<strong>Portfolio</strong></h2>
+				</div>
+			</div>
+			<div class="filters">
+				<ul>
+					<li class="active" data-filter="*">All</li>
+					<li data-filter=".projects">Projects</li>
+					<li data-filter=".related">Related Experience</li>
+				</ul>
+			</div>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
-    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
-    crossorigin="anonymous"></script>
+			<div class="filters-content">
+				<div class="row grid">
+					<div class="single-portfolio col-sm-4 all projects">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/reality-tasks.png" alt="">
+							</div>
+							<!-- <a href="" class="img-pop-up">
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
+									</div>
+								</div>
+							</a> -->
+						</div>
+						<div class="p-inner">
+							<h4>Reality Tasks</h4>
+							<div class="cat">Projects</div>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all related">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/hope-builders.png" alt="">
+							</div>
+							<a href="https://www.third-lens.org/donate/hope-builders-program-2/" class="img-pop-up">
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="p-inner">
+							<h4>Hope Builders Program</h4>
+							<div class="cat">Related Experience</div>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all related">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/masked-wanderer.png" alt="">
+							</div>
+							<!-- <a href="http://picturewindow.mynmi.net/index.html" target="_blank" class="img-pop-up">
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
+									</div>
+								</div>
+							</a> -->
+						</div>
+								<div class="p-inner">
+									<h4>Masked Wanderer</h4>
+									<div class="cat">Projects</div>
+								</div>
+							</div>
+							<div class="single-portfolio col-sm-4 all projects">
+								<div class="relative">
+									<div class="thumb">
+										<div class="overlay overlay-bg"></div>
+										<img class="image img-fluid" src="images/picture-window.png" alt="">
+									</div>
+									<a href="http://picturewindow.mynmi.net/index.html" class="img-pop-up">
+										<div class="middle">
+											<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
+											</div>
+										</div>
+									</a>
+								</div>
+						<div class="p-inner">
+							<h4>Picture Window</h4>
+							<div class="cat">Related Experience</div>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all projects">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/weather-dash.png" alt="weather-dashboard-website">
+							</div>
+							<!-- <a href="https://nataliegarcia-8.github.io/Domestic-Covid19-TravelApp/" class="img-pop-up">
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
+									</div>
+								</div>
+							</a> -->
+						</div>
+						<div class="p-inner">
+							<h4>Weather Dashboard</h4>
+							<div class="cat">Projects</div>
+						</div>
+					</div>
+					<div class="single-portfolio col-sm-4 all projects">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="images/p6.jpg" alt="">
+							</div>
+							<a href="images/p6.jpg" class="img-pop-up">
+								<div class="middle">
+									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="">
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="p-inner">
+							<h4>Readme Generator</h4>
+							<div class="cat">Projects</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- .section -->
+<!-- ABOUT ME SECTION -->
+	<section class="site-section" id="section-about">
+		<div class="container">
+			<div class="row mb-5 align-items-center">
+				<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+					<img src="images/aboutme2.jpeg" alt="Image placeholder" class="img-fluid">
+				</div>
+				<div class="col-lg-5 pl-lg-5">
+					<div class="section-heading">
+						<h2>About <strong>Me</strong></h2>
+					</div>
+					<p class="lead">Hi there! I'm Natalie Garcia. I am a certified full-stack web developer.
+					</p>
+					<p>
+						I am a recent grad with a Bachelor of Arts, a Film studies minor, and a New Media
+						Certificate from the University of Georgia. Film and television will always have my heart, but I
+						enjoy veiwing them more than I do
+						creating them.
+						I received a Full-Stack Web Development Certificate through the Georgia Institute of Technology.
+					</p>
+					<p class="mb-5">
+						When I first starting coding it just made sense to me and I loved trying to fit the pieces
+						together and the feeling when you get the code to work.
+						I have never felt like I was passionate enough for the careers I was pursing until I began
+						coding.
+						I would like to pursue a career in Web Development so I can have a career I love, that
+						consistently
+						challenges.</p>
+					<p>
+						<!-- <a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a> -->
+						<a href="images/natalie_garcia_resume.pdf" class="btn btn-secondary px-4 py-2 btn-sm">Download My Resume</a>
+					</p>
+				</div>
+			</div>
 
-  <script src="./assets/script.js"></script>
+
+		</div>
+	</section>
+	<!-- CONTACT SECTION -->
+	<section class="site-section" id="section-contact">
+		<div class="container">
+			 <div class="row">
+				<div class="col-md-12 mb-5">
+					<div class="section-heading text-center">
+						<h2>Get <strong>In Touch</strong></h2>
+					</div>
+				</div>
+			 </div>
+			<div class="row">
+				<div class="col-md-4 mb-3 mb-md-0">
+					<div class="card py-4 h-100">
+						<div class="card-body text-center">
+							<span class="icon-github2 icon"></span>
+							<h4 class="contact"> Github</h4>
+							<hr class="my-4">
+							<a href="https://github.com/nataliegarcia-8">https://github.com/nataliegarcia-8</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3 mb-md-0">
+					<div class="card py-4 h-100">
+						<div class="card-body text-center">
+							<span class="icon-email icon"></span>
+							<h4 class=" contact">Email</h4>
+							<hr class="my-4">
+							<a href="#">gnatalie.booking@gmail.com</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3 mb-md-0">
+					<div class="card py-4 h-100">
+						<div class="card-body text-center">
+							<span class="icon-mobile icon"></span>
+							<h4 class=" contact">Phone</h4>
+							<hr class="my-4">
+							<a>(404) 388-2217</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- footer section -->
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md-12 text-center">
+					<p>
+						<a href="#" class="social-item"><span class="icon-github2"></span></a>
+						<a href="#" class="social-item"><span class="icon-linkedin2"></span></a>
+					</p>
+				</div>
+			</div>
+
+			<div class="row mb-5">
+				<p class="col-12 text-center copy">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is
+					made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a
+						href="https://colorlib.com" target="_blank">Colorlib</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- javascript -->
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/vendor/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/vendor/popper.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+
+	<script src="js/vendor/jquery.easing.1.3.js"></script>
+
+	<script src="js/vendor/jquery.stellar.min.js"></script>
+	<script src="js/vendor/jquery.waypoints.min.js"></script>
+
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="js/custom.js"></script>
 </body>
 
 </html>

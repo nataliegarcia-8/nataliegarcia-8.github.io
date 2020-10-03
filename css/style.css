@@ -626,7 +626,7 @@ a {
   color: rgba(255, 255, 255, 0.5) !important; }
 /* contact apge */
 .copy {
-  font-size: 5px;
+  font-size: 10px;
 }
 
 .card {
@@ -642,4 +642,9 @@ hr {
 }
 .contact {
   font-size: 20px;
+}
+
+.btn-secondary {
+  background-color: #cccccc;
+  color: #333;
 }
